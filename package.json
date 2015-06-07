@@ -1,0 +1,31 @@
+{
+  "name": "@atirip/virtual-layout",
+  "description": "Virtual Layout",
+  "version": "0.0.1",
+  "main": "layout.js",
+  "author": "Priit Pirita <atirip@yahoo.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atirip/virtual-layout.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "layout"
+  ],
+  "dependencies": {
+    "@atirip/matrix": "^1.0.0",
+    "@atirip/rectangle": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^1.5.x",
+    "mocha": "^1.8.x",
+    "mocha-eslint": "^0.1.7"
+  },
+  "scripts": {
+    "test": "mocha test/*"
+  },
+  "bugs": {
+    "url": "https://github.com/atirip/virtual-layout/issues"
+  },
+  "homepage": "https://github.com/atirip/virtual-layout#readme"
+}
